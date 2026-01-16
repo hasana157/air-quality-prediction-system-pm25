@@ -26,21 +26,21 @@ The system:
 ## 📂 Repository Structure
 
 ```
-├── data/
-│   └── beijing_aqi.csv
-├── notebooks/
-│   └── exploration_and_modeling.ipynb
-├── src/
-│   ├── preprocess.py
-│   ├── feature_engineering.py
-│   ├── train_models.py
-│   └── app.py
-├── models/
-│   ├── linear_regression.pkl
-│   └── ann_model.h5
+├── PRSA_data_2010.1.1-2014.12.31.csv       # Raw Beijing air pollution data
+├── modelcode.ipynb                   # Jupyter notebook: EDA, modeling, experiments
+├── app.py                              # Python script for running the prediction app
+├── visuals/
+│   ├── beijing_eda_boxplots.png
+│   ├── beijing_eda_correlation.png
+│   ├── beijing_eda_overview.png
+│   ├── beijing_eda_temporal.png
+│   ├── beijing_eda_weather.png
+│   ├── beijing_pm25_model_comparison.png
+│   └── beijing_pm25_predictions.png
 ├── report/
-│   └── Project Report.pdf
-└── README.md
+│   └── ProjectReport.pdf
+└── .ipynb_checkpoints/                      # Jupyter notebook checkpoints
+
 ```
 
 ---
@@ -164,23 +164,11 @@ Run App:
 streamlit run app.py
 ```
 
-<img width="328" height="441" alt="image" src="https://github.com/user-attachments/assets/bd9bbd2b-4a23-4593-8631-4f28d7c04037" />
+<img width="328" height="441" alt="image" src="https://github.com/user-attachments/assets/bd9bbd2b-4a23-4593-8631-4f28d7c04037" /><img width="882" height="549" alt="image" src="https://github.com/user-attachments/assets/9f67a3fd-218e-4cab-88e4-2e6723d0c33e" /><img width="890" height="523" alt="image" src="https://github.com/user-attachments/assets/19b80811-91b0-410c-aaff-e67069987c8d" /><img width="859" height="492" alt="image" src="https://github.com/user-attachments/assets/23bace91-2776-492b-9bbb-8b1eabe917a1" /><img width="748" height="894" alt="image" src="https://github.com/user-attachments/assets/4e94d886-1ed8-44ef-a766-6e344069f2a9" />
 
-<img width="882" height="549" alt="image" src="https://github.com/user-attachments/assets/9f67a3fd-218e-4cab-88e4-2e6723d0c33e" />
+<img width="630" height="716" alt="image" src="https://github.com/user-attachments/assets/6cc5e0b4-f97f-4327-a7c7-0832dcbba50d" /><img width="1036" height="929" alt="image" src="https://github.com/user-attachments/assets/968f3156-a1e3-428e-856e-988e7ef0454f" /><img width="635" height="350" alt="image" src="https://github.com/user-attachments/assets/b461a06d-959c-4128-b3bf-97148a8c2d25" />
 
-<img width="890" height="523" alt="image" src="https://github.com/user-attachments/assets/19b80811-91b0-410c-aaff-e67069987c8d" />
-
-<img width="859" height="492" alt="image" src="https://github.com/user-attachments/assets/23bace91-2776-492b-9bbb-8b1eabe917a1" />
-
-<img width="748" height="894" alt="image" src="https://github.com/user-attachments/assets/4e94d886-1ed8-44ef-a766-6e344069f2a9" />
-
-<img width="630" height="716" alt="image" src="https://github.com/user-attachments/assets/6cc5e0b4-f97f-4327-a7c7-0832dcbba50d" />
-<img width="1036" height="929" alt="image" src="https://github.com/user-attachments/assets/968f3156-a1e3-428e-856e-988e7ef0454f" />
-<img width="635" height="350" alt="image" src="https://github.com/user-attachments/assets/b461a06d-959c-4128-b3bf-97148a8c2d25" />
-
-<img width="435" height="279" alt="image" src="https://github.com/user-attachments/assets/e1872d8a-1dbf-49f6-9f63-75c46e055ba2" />
-<img width="640" height="757" alt="image" src="https://github.com/user-attachments/assets/8d149d32-39d5-4083-b6d1-e61f7ed5c669" />
-<img width="880" height="1039" alt="image" src="https://github.com/user-attachments/assets/37b04f94-291e-4876-adf3-ef6007ed2b84" />
+<img width="435" height="279" alt="image" src="https://github.com/user-attachments/assets/e1872d8a-1dbf-49f6-9f63-75c46e055ba2" /><img width="640" height="757" alt="image" src="https://github.com/user-attachments/assets/8d149d32-39d5-4083-b6d1-e61f7ed5c669" /><img width="880" height="1039" alt="image" src="https://github.com/user-attachments/assets/37b04f94-291e-4876-adf3-ef6007ed2b84" />
 
 
 
